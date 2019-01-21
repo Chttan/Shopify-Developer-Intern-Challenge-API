@@ -1,7 +1,7 @@
 # Shopify-Developer-Intern-Challenge-API
 The Summer 2019 Backend Developer Intern Challenge - Create an API for a basic online store
 
-## Environment
+## Environment/Setup
   Created using Python 3.6 and Django 2.1.5
   
   It is best to create a virtual environment so that you can isolate any libraries and packages you will need for this project from the rest of your system.  To do so, you will need to install **virtualenv**.
