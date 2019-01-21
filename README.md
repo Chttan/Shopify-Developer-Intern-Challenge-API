@@ -57,7 +57,7 @@ The Summer 2019 Backend Developer Intern Challenge - Create an API for a basic o
    For some examples and test cases, see **test.py**.
  
 ## Approach 
-For this project, I wanted to try using a web framework.  As I was already familiar with Python, I choose to use Django.  
+For this project, I wanted to try learning and using a web framework.  As I was already familiar with Python, I choose to use Django.  
 
 After creating my project, **ChtStore**, I moved on to creating an app, called **store**.  Django comes with the ability to use "object-relational mappers".  What this allows the developer to do is describe the layout of a database using Python code in a "model" (ours is found in **/store/models.py**).  After the mapper and database are created, the developer can now update and interact with the database using a simple Python API.  
 
