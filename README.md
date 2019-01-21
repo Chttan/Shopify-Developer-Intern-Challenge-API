@@ -57,7 +57,7 @@ The Summer 2019 Backend Developer Intern Challenge - Create an API for a basic o
    For some examples and test cases, see **test.py**.
  
 ## Approach 
-For this project, I wanted to try learning and using a web framework.  As I was already familiar with Python, I choose to use Django.  
+For this project, I wanted to try learning and using a web framework.  As I was already familiar with Python, I chose to use Django.  
 
 After creating my project, **ChtStore**, I moved on to creating an app, called **store**.  Django comes with the ability to use "object-relational mappers".  What this allows the developer to do is describe the layout of a database using Python code in a "model" (ours is found in **/store/models.py**).  After the mapper and database are created, the developer can now update and interact with the database using a simple Python API.  
 
@@ -65,7 +65,9 @@ With an a way to interact with the database created, the next step is to write o
 
 This was not so simple, as there needs to be a way for the standalone script to access the **store** app, its model and its database.  After experimenting and searching, I found a way to load the model such that I could access the database and the Django Python API so that my own API could work.
 
-With everything working, I created a simple test script, **test.py**, to debug and demonstrate my new API.
+With everything working, I created a simple test script, **test.py**, to debug and demonstrate my new API.  I tested some edge cases, mainly adding items that exist already, purchasing items that have no inventory and purchasing items that do not exist, to name a few. At the moment, there is nothing in the model that prevents negative prices or inventory counts.  This would not cause any exceptions but may make a few customers happy ;). In the future, I would like to explore the Django models in order to use those restrictions.
+
+The next improvements I would like to make beyond the challenge suggestions are to add a frontend so that data can be visualised easier.  I would like to create a way for a customer to join a waiting list on items that have no inventory left.
 
 Overall, this was a fun experience and I am looking forward to creating more projects in Django!
 
