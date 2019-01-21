@@ -1,6 +1,8 @@
 # Shopify-Developer-Intern-Challenge-API
 The Summer 2019 Backend Developer Intern Challenge - Create an API for a basic online store
 
+[The Summer 2019 Challenge](https://docs.google.com/document/d/1J49NAOIoWYOumaoQCKopPfudWI_jsQWVKlXmw1f1r-4/preview) 
+
 ## Environment/Setup
   Created using Python 3.6 and Django 2.1.5
   
